@@ -1,0 +1,69 @@
+/* @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300'); */
+
+body {
+    background: url('../images/contentBachground1b.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color:#000;
+    background-color:rgba(50, 50, 50, 0.2);
+    font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+}
+
+.header,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header {
+    background-color: #2B6A7C;
+    color: #FFF;
+}
+
+.navbar {
+   background-color: #FFF;
+}
+
+.footer {
+    background-color: #2B6A7C;
+    color: #FFF;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.text-center {
+     margin: 0 auto;
+     text-align: center;
+ }
+
+.aus-content {}
+.aus-sideboard {}
+
+.aus-content-box {
+    background-color: #FFF;
+    height: 370px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.aus-sideboard-box {
+    background-color:  #FFF;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+/* ----------- test classes ---------------- */
+.test-greenyellow {
+    background-color: greenyellow;
+}
+.test-green {
+    background-color: #00a500;
+}
+.test-darkgreen {
+    background-color: darkgreen;
+}
+.test-grey {
+    background-color: #808080;
+}
