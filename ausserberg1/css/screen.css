@@ -1,0 +1,49 @@
+/*
+ * Projekt ausserberg.ch
+ * @author Jonas Schmid
+ */
+body {
+  background: url('../images/contentBachground1b.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #000;
+  background-color: #323232;
+  font-family: 'Open Sans', Arial, Helvetica, Sans-Serif; }
+
+.header, .footer {
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.header {
+  background-color: #6eb4c8;
+  color: #FFF; }
+
+.navbar {
+  background-color: #FFF; }
+
+.footer {
+  background-color: #ded4cb;
+  color: red;
+  padding-top: 15px;
+  padding-bottom: 30px; }
+
+.text-center {
+  margin: 0 auto;
+  text-align: center; }
+
+
+
+.aus-content-box {
+  background-color: #FFF;
+  height: 370px;
+  padding: 10px;
+  margin-bottom: 15px; }
+
+.aus-sideboard-box {
+  background-color: #FFF;
+  padding: 10px;
+  margin-bottom: 15px; }
+
+/*# sourceMappingURL=screen.css.map */

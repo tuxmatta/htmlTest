@@ -1,0 +1,18 @@
+{
+    "path": {
+        "css/screen.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "output": "screen.css",
+                "includePaths": [],
+                "imagePath": null,
+                "sourceComments": "map",
+                "sourceMap": "bootstrap.css.map",
+                "outputStyle": "nested"
+            }
+        },
+        "css/print.scss": {
+            "sass.enabled": false
+        }
+    }
+}
