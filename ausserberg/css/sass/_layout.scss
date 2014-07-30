@@ -1,0 +1,52 @@
+// _layout.scss
+// ==================================================
+
+@import "_color";
+
+body {
+    color:#000;
+    background-color:rgba(50, 50, 50, 1);
+    font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+}
+
+.header,
+.footer {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header {
+    background-color: $color-blue;
+    color: #FFF;
+}
+
+.navbar {
+   background-color: #FFF;
+}
+
+.footer {
+    background-color: $color-gray;
+    color: red;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+.text-center {
+     margin: 0 auto;
+     text-align: center;
+ }
+
+.aus-content {}
+.aus-sideboard {}
+
+.aus-content-box {
+    background-color: #FFF;
+    height: 370px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.aus-sideboard-box {
+    background-color:  #FFF;
+    padding: 10px;
+    margin-bottom: 15px;
+}

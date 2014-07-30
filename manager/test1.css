@@ -1,0 +1,38 @@
+body {
+	color: black;
+	background-color: white;
+	font-size: 12px;
+}
+
+.box {
+	background-color: #EEE;
+	border: 1px solid black;
+	width: 220px;
+	min-height: 300px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.gallery-box {
+	background-color: #CCC;
+	margin: 0px;
+	padding: 0px;
+}
+.gallery-box p {
+	margin: 0px;
+	padding: 5px;
+	color: red;
+	font-size: 15px;	
+	font-weight: bold;
+	border-bottom: 1px solid black;
+	
+}
+
+.gallery-item-container {
+	
+}
+.gallery-item {
+	background-color: #EEE;
+	max-width: 100px;
+	max-height: 100px;
+}
