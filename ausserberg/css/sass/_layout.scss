@@ -2,11 +2,12 @@
 // ==================================================
 
 @import "_color";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Gentium+Book+Basic:700italic,400italic);
 
 body {
     color:#000;
-    background-color:rgba(50, 50, 50, 1);
-    font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+    background-color: #FFF;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .header,
@@ -16,12 +17,15 @@ body {
 }
 
 .header {
-    background-color: $color-blue;
-    color: #FFF;
+    background-color: #FFF;
+    color: #000;
+}
+.header h1 {
+    text-size: 2em;
 }
 
 .navbar {
-   background-color: #FFF;
+   background-color: $color-gray;
 }
 
 .footer {
@@ -43,6 +47,25 @@ body {
     height: 370px;
     padding: 10px;
     margin-bottom: 15px;
+}
+
+.aus-news-box, .aus-photo-box {
+  background-color: rgba(0, 51, 102, 1);
+  color: #FFF;
+  padding: 1px;
+  margin: 0px;
+  margin-bottom: 10px;
+  height: 220px;
+}
+.aus-photo-box {
+    background-image: url('../images/image6.jpg');
+}
+.aus-news-box h3, .aus-photo-box h3 {
+  text-align: center;
+}
+.aus-news-box p {
+  padding-left: 6px;
+  padding-right: 6px;
 }
 
 .aus-sideboard-box {

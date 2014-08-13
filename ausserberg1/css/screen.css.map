@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "file": "",
+  "sources": ["screen.scss","sass/_variable.scss","sass/_color.scss","sass/_layout.scss"],
+  "names": [],
+  "mappings": ";;;;AGKA;EACI,YAAmD;EACnD,yBAAyB;EACzB,sBAAsB;EACtB,oBAAoB;EACpB,iBAAiB;EACjB,OAAM;EACN,kBAAiB;EACjB,aAAa;;AAGjB,SAAS;EAEL,eAAe;EACf,cAAc;;AAGlB;EACI,kBDdS;ECeT,OAAO;;AAGX;EACG,kBAAkB;;AAGrB;EACI,kBDtBS;ECuBT,OAAO;EACP,aAAa;EACb,gBAAgB;;AAEpB;EACK,QAAQ;EACR,YAAY;;;;AAMjB;EACI,kBAAkB;EAClB,QAAQ;EACR,SAAS;EACT,eAAe;;AAGnB;EACI,kBAAmB;EACnB,SAAS;EACT,eAAe"
+}
