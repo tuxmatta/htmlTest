@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,700,700italic|Gentium+Book+Basic:400,400italic,700,700italic);
+/*
+ * Projekt ausserberg.ch
+ * @author Jonas Schmid
+ */
+/*
+$color-blueDark: rgba(43, 106, 124, 1);
+$color-orange: rgba(255, 169, 14, 1);
+$color-green: rgba(70, 121, 51, 1);
+$color-blue: rgba(110, 180, 200, 1);
+$color-gray: rgba(222, 212, 203, 1);
+$color-black: rgba(33, 33, 33, 1);
+*/
+/*
+$color-blueDark: rgba(43, 106, 124, 1);
+$color-orange: rgba(255, 169, 14, 1);
+$color-green: rgba(70, 121, 51, 1);
+$color-blue: rgba(110, 180, 200, 1);
+$color-gray: rgba(222, 212, 203, 1);
+$color-black: rgba(33, 33, 33, 1);
+*/
+html, body {
+  width: 100%;
+  height: 100%;
+  color: #000;
+  background-color: #FFF;
+  font-family: 'Open Sans', sans-serif; }
+
+/* aus-landing-page */
+#aus-landing-page {
+  display: table;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../img/landingPage.png) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover; }
+
+/* header */
+#aus-header {
+  width: auto;
+  text-align: center; }
+
+/* navigation */
+.navbar {
+  background-color: #ded4cb; }
+
+/* news */
+.aus-content-box {
+  background-color: #ded4cb;
+  height: 370px;
+  padding: 10px;
+  margin-bottom: 15px; }
+
+.aus-news-box, .aus-photo-box {
+  background-color: #003366;
+  color: #FFF;
+  padding: 1px;
+  margin: 0px;
+  margin-bottom: 10px;
+  height: 220px; }
+
+.aus-photo-box {
+  background-image: url('../img/image6.jpg'); }
+
+.aus-news-box h3, .aus-photo-box h3 {
+  text-align: center; }
+
+.aus-news-box p {
+  padding-left: 6px;
+  padding-right: 6px; }
+
+.aus-sideboard-box {
+  background-color: #0073aa;
+  color: white;
+  font-family: 'Gentium Book Basic', serif;
+  font-style: italic;
+  padding: 10px;
+  margin-bottom: 15px; }
+
+/* content */
+/* footer */
+.aus-footer {
+  padding: 20px;
+  background-color: #8c8787; }
+
+.aus-footer p {
+  color: white; }
+
+.aus-footer a, .aus-footer a:link, .aus-footer a:visited {
+  color: white;
+  text-decoration: underline; }
+.aus-footer a:active, .aus-footer a:hover {
+  color: #ff9900;
+  text-decoration: underline; }
+
+/*# sourceMappingURL=screen.css.map */
